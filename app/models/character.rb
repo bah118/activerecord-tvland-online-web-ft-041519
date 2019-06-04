@@ -3,7 +3,7 @@ class Character < ActiveRecord::Base
   belongs_to :show 
   
   def say_that_thing_you_say
-    
+    "Steve Urkel always says: Did I do that?"
   end
   
 end
